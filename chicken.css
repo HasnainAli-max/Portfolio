@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+
+
+.fcontainer {
+    height: 125px;
+    border-bottom: 0.1px solid black;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.item1 {
+    margin: 12px;
+    flex-grow: 2;
+    height: 100px;
+    width: 100px;
+}
+
+.item2 {
+
+    margin: 12px;
+    height: 100px;
+    width: 100px;
+}
+
+.item3 {
+    margin-left: 40px;
+    flex-grow: 2;
+    height: 100px;
+    width: 100px;
+}
+
+#btn1 {
+    font-weight: bold;
+
+    animation-direction: alternate-reverse;
+    background-size: 100%, 100%;
+    animation-name: ck;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes ck {
+    0% {
+        background-color: rgb(197, 37, 35);
+    }
+
+    50% {
+        background-color: rgb(197, 37, 35);
+    }
+
+    55% {
+        background-color: rgb(222, 172, 9);
+    }
+
+    100% {
+        background-color: rgb(222, 172, 9);
+    }
+}
+
+@media (max-width : 990px) {
+    .fcontainer {
+        display: none;
+    }
+}
+
+@media (min-width : 990px) {
+    .nearest {
+        display: none;
+    }
+}
+
+@media (min-width : 990px) {
+    #bnav {
+        display: none;
+    }
+}
+
+@media (max-width : 770px) {
+    .nearest {
+        display: none;
+    }
+}
+
+@media (max-width : 770px) {
+    .nearest {
+        display: none;
+    }
+}
+
+@media (min-width : 770px) {
+    .bnearest {
+        display: none;
+    }
+}
+
+@media (max-width : 770px) {
+    #q {
+        margin-right: 10vw;
+    }
+}
+
+
+.card-container {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 100px;
+    /* margin: 20px; */
+    gap: 20px;
+}
+
+.beef
+{
+    position: relative;
+}
+.beef img
+{
+    border-radius: 10px;
+}
+
+.ank {
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(248, 163, 2);
+    position: absolute;
+    left: 130px;
+    top: 265px;
+    border-radius: 3px;
+    text-align: center;
+
+}
+
+.ank2 {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 500;
+    /* margin-top: 5px; */
+    /* margin-left: 5px; */
+}
+#cb
+{
+    
+    text-align: center;
+    margin-top: 10px;
+    
+}
+.price
+{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+
+
+
+.card-container11 {
+    width: auto;
+    /* display: flex; */
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 70px;
+    /* margin: 20px; */
+    gap: 20px;
+}
+
+.beef
+{
+    position: relative;
+
+}
+.beef img
+{
+    border-radius: 10px;
+}
+
+.ank {
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(248, 163, 2);
+    position: absolute;
+    left: 130px;
+    top: 265px;
+    border-radius: 3px;
+    text-align: center;
+
+}
+
+.ank2 {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 500;
+    /* margin-top: 5px; */
+    /* margin-left: 5px; */
+}
+
+
+
+@media (max-width:500px) {
+    .card-container{
+        display: none;
+    }
+}
+@media (min-width:500px) {
+    .card-container11{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+/* footer */
+footer {
+    width: 100%;
+    height: auto;
+    background-color: #f0f0f0;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-bottom: 80px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.site-links {
+    display: flex;
+    flex-direction: column;
+    margin-left: 110px;
+    position: relative;
+
+}
+
+.site-links h1 {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.ak {
+    margin: 7px;
+}
+
+.site-links1 {
+    margin-left: 135px;
+}
+
+.but {
+    position: absolute;
+    left: 210px;
+    top: 93px;
+    height: 40px;
+    background-color: rgb(98, 76, 51);
+    color: white;
+}
+.site-links11 {
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 110px; */
+    position: relative;
+
+}
+.but11 {
+    position: absolute;
+    left: 200px;
+    top: 104px;
+    height: 40px;
+    background-color: rgb(98, 76, 51);
+    color: white;
+}
+@media (max-width:500px) {
+    .footer
+    {
+        display: none;
+    }
+}
+
+@media (min-width:500px) {
+    .accord
+    {
+        display: none;
+    }
+}
+/* footer */
+
+
+
+
+
+
+
+
+
+.last {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(248, 181, 0);
+    text-align: start;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
